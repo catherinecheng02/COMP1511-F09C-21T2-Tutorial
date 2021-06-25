@@ -6,7 +6,25 @@
 
 #include <stdio.h>
 #define SIZE 1000
+
 int main(void) {
+    int input;
+    int i = 0;
+    while(scanf("%d", &input) == 1)) {
+        printf("successfully read %d\n", input);
+        i++;
+        
+    }
+    
+    // while(scanf("%d", &input) != EOF) 
+    
+
+
+// QUESTION 26
+// Edit the code written in the previous question so that the integers scanned 
+// in are placed into an array called inputs of size 1000. You can assume no 
+// more than 1000 numbers will be entered.
+
     int input_arr[SIZE];
     int i = 0;
     while(scanf("%d", &input_arr[i]) == 1) && i < SIZE) {
@@ -14,11 +32,6 @@ int main(void) {
         
     }
     
-    // while(scanf("%d", &input) != EOF) 
+    
     
 }
-
-// QUESTION 26
-// Edit the code written in the previous question so that the integers scanned 
-// in are placed into an array called inputs of size 1000. You can assume no 
-// more than 1000 numbers will be entered.
